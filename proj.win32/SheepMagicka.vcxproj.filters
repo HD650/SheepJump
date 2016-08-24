@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="layer">
+      <UniqueIdentifier>{b33190e1-a08c-4cf1-b351-e106efd86724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sheep">
+      <UniqueIdentifier>{8cfc4599-af1e-4630-889d-5be22c577d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{efabc0f6-fad7-40be-9a0e-d4fcbff03ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="define">
+      <UniqueIdentifier>{ae7e0227-de7d-4aaa-90b5-608b39604873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="book">
+      <UniqueIdentifier>{ad675e45-2970-4554-8c6c-360e6c3858ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelayer.cpp">
+      <Filter>layer</Filter>
+    </ClCompile>
+    <ClCompile Include="gamescene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sheeplayer.cpp">
+      <Filter>layer</Filter>
+    </ClCompile>
+    <ClCompile Include="sheep.cpp">
+      <Filter>sheep</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicBook.cpp">
+      <Filter>book</Filter>
+    </ClCompile>
+    <ClCompile Include="monster.cpp">
+      <Filter>sheep</Filter>
+    </ClCompile>
+    <ClCompile Include="wolf.cpp">
+      <Filter>sheep</Filter>
+    </ClCompile>
+    <ClCompile Include="bride.cpp">
+      <Filter>sheep</Filter>
+    </ClCompile>
+    <ClCompile Include="mainmenu.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="techscene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="techsheeplayer.cpp">
+      <Filter>layer</Filter>
+    </ClCompile>
+    <ClCompile Include="configscene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelayer.h">
+      <Filter>layer</Filter>
+    </ClInclude>
+    <ClInclude Include="sheep.h">
+      <Filter>sheep</Filter>
+    </ClInclude>
+    <ClInclude Include="gamescene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sheeplayer.h">
+      <Filter>layer</Filter>
+    </ClInclude>
+    <ClInclude Include="alldefine.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicBook.h">
+      <Filter>book</Filter>
+    </ClInclude>
+    <ClInclude Include="monster.h">
+      <Filter>sheep</Filter>
+    </ClInclude>
+    <ClInclude Include="wolf.h">
+      <Filter>sheep</Filter>
+    </ClInclude>
+    <ClInclude Include="bride.h">
+      <Filter>sheep</Filter>
+    </ClInclude>
+    <ClInclude Include="mainmenu.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="techscene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="techsheeplayer.h">
+      <Filter>layer</Filter>
+    </ClInclude>
+    <ClInclude Include="configscene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
